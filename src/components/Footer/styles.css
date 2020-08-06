@@ -1,0 +1,30 @@
+
+.author {
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: rgba(95, 93, 93, 0.027);
+  color: rgba(0, 0, 0, 0.37);
+  bottom: 0;
+  left: 0;
+  height: 70px;
+  position: fixed;
+  width: 100%;
+  justify-content: space-between;
+}
+.author button {
+  border: none;
+  padding-left: 14px;
+  background: none;
+}
+
+.author img {
+  height: 18px;
+  width: 18px;
+}
+
+.author p {
+  margin-top: 5px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
