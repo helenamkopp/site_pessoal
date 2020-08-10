@@ -1,20 +1,23 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 import PageHeader from '../../components/Header';
 import Footer from '../../components/Footer';
+import Cards from '../../components/Cards';
 
 
 import './styles.css';
+import MainContent from '../../components/MainContent';
 
 
-function HomePage () {
+function HomePage() {
   return (
     <div>
-    <PageHeader />
-    <Footer />
+      <PageHeader />
+      <MainContent />
+      <Cards />
+      <Footer />
     </div>
-    
+
   );
 
 
