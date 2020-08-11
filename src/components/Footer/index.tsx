@@ -13,17 +13,17 @@ function Footer() {
     <footer>
       <div className="author">
         <div className="social-media">
-          <button type="button">
+          <a href="https://www.linkedin.com/in/helena-meyer-kopp/" type="button">
             <img className="linkedin" src={linkedin} alt="LinkedIn" />
-          </button>
+          </a>
 
-          <button type="button">
+          <a href="https://github.com/helenamkopp" type="button">
             <img className="github" src={github} alt="Github" />
-          </button>
+          </a>
 
-          <button type="button">
+          <a href="https://www.instagram.com/_helenameyer/?hl=pt-br" type="button">
             <img className="instagram" src={instagram} alt="Instagram" />
-          </button>
+          </a>
         </div>
         <p>Desenvolvido por Helena Meyer - 2020 </p>
       </div>

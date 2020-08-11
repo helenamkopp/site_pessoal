@@ -1,9 +1,14 @@
+.page.main {
+  margin: 10%;
+}
+
 .home-page-main-content {
   height: 500px;
   width: auto;
   padding-left: 5%;
   padding-right: 5%;
   text-align: center;
+ 
   
 }
 
@@ -17,7 +22,7 @@
 
 .home-page-main-content p {
   font-family: 'Sorts Mill Goudy', serif;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .home-page-main-content .main-text {
@@ -33,7 +38,16 @@
   background-color:#1B4079;
   color: aliceblue;
   border-radius: 8px;
+  box-shadow: 10px 10px 4px -2px #647794dc;
   font-family: 'Quattrocento Sans', sans-serif;
+}
+
+.home-page-main-content .invite {
+  text-decoration: underline;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  margin-top: 25px;
+  padding: 25px;
 }
 
 
