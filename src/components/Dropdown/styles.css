@@ -2,7 +2,7 @@
   border: none;
   background-color: var(--color-background);
   cursor: pointer;
-  display: inline-block;
+  
 }
 
 .dropdown-menu {
@@ -12,6 +12,7 @@
   height: 158px;
   width: 200px;
 }
+
 
 .dropdown-item {
   text-align: center;
@@ -26,7 +27,4 @@
   margin-top: 4px;
 }
 
-@media (min-width: 800px) {
-  
-}
 

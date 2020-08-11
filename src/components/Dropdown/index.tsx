@@ -13,10 +13,10 @@ function DropdownMenu() {
         <img src={menu} alt="Menu de Opções" />
       </button>
       <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-        < Link to="/" className="dropdown-item">Assunto 1</Link>
-        < Link to="/" className="dropdown-item">Assunto 2</Link>
-        < Link to="/" className="dropdown-item">Assunto 3</Link>
-        < Link to="/" className="dropdown-item">Assunto 4</Link>
+        < Link to="/" className="dropdown-item">Sobre</Link>
+        < Link to="/" className="dropdown-item">Transição de Carreira</Link>
+       
+      
       </div>
     </div>
 
